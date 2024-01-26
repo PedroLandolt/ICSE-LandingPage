@@ -1,0 +1,17 @@
+:root{
+    --main-color: #e3f6ff;
+    --secondary-color: #a05546;
+    --white-color: #fff;
+    --black-color: #313131;
+    --icse-color: #a82020;
+}
+
+*{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
