@@ -1,11 +1,3 @@
-:root{
-    --main-color: #e3f6ff;
-    --secondary-color: #a05546;
-    --white-color: #fff;
-    --black-color: #313131;
-    --icse-color: #a82020;
-}
-
 .navbar {
     background-color: var(--black-color);
     height: 80px;
@@ -104,21 +96,8 @@
         background-color: var(--black-color);
         left: 0;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.6s ease;
         z-index: 1;
-    }
-
-    .navbar-links {
-        text-align: center;
-        padding: 2rem;
-        width: 100%;
-        display: table;
-    }
-
-    .navbar-links:hover{
-        color: var(--secondary-color);
-        transition: all 0.3s ease;
-        transform: scale(1.2);
     }
 
     .navbar-item{
@@ -127,7 +106,6 @@
 
     .navbar-item:hover{
         border: none;
-
     }
 
     .navbar-logo{
