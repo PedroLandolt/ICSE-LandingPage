@@ -80,9 +80,8 @@
 }
 
 .primary:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--black-color);
     color: var(--white-color);
-    border: none;
 }
 
 .secondary {

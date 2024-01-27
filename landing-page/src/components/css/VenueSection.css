@@ -1,0 +1,126 @@
+.venue-section{
+    padding: 3rem 0;
+}
+
+.venue-container{
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+.venue-container-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.venue-container-col{
+    flex: 1;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.venue-container-col-special{
+    flex: 1;
+    max-width: 100%;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.venue-img{
+    max-width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.venue-img-wrapper img{
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.venue-text-wrapper{
+    max-width: 540px;
+    padding-top: 0;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.venue-heading{
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.venue-subheading{
+    margin-bottom: 24px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.venue-text-wrapper h2{
+    font-size: 30px;
+}
+
+.venue-text-wrapper h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1199px){
+    .venue-heading{
+        font-size: 48px;
+    }
+
+    .venue-text-wrapper h2{
+        font-size: 25px;
+    }
+
+    .venue-text-wrapper h3{
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .venue-container {
+        padding-top: 3rem;
+    }
+
+    .venue-text-wrapper {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .venue-container-col {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .venue-text-wrapper {
+        padding-bottom: 65px;
+    }
+
+    
+}
+
+
+
