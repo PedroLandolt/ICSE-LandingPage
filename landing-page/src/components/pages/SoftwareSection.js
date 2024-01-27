@@ -9,7 +9,7 @@ function SoftwareSection() {
                     <div className="software-container-row">
                         <div className="software-container-col">
                             <div className="software-img-wrapper">
-                                <img src="images/pngegg.png" alt="Software" className="software-img" />
+                                <img src="images/softwareSection/pngegg.png" alt="Software" className="software-img" />
                             </div>
                         </div>
                         <div className="software-container-col">
