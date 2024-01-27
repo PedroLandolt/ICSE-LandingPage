@@ -15,7 +15,7 @@ function VenueSection() {
                                 <h2 className="venue-subheading">April</h2>
                                 <h3 className="venue-subheading">12th - 20th</h3>
                                 <Link to="https://www.ccb.pt/">
-                                    <Button buttonSize='btn--wide' buttonColor='primary'>EXPLORE</Button>
+                                    <Button buttonStyle="btn-primary" buttonSize='btn--wide' buttonColor='primary'>EXPLORE</Button>
                                 </Link>
                             </div>
                         </div>

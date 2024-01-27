@@ -1,0 +1,120 @@
+.keynotes-section {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fcfcfc;
+}
+
+.keynotes-card{
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+    background-color: var(--white-color);
+    width: 350px;
+    height: 500px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.keynotes-card:hover{
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
+}
+
+.keynotes-card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.keynotes-card-info img{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.keynotes-card-info h2{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+
+.keynotes-card-info p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #7B7F9E;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.keynotes-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.keynotes-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.keynotes-heading{
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.keynotes-btn{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 1120px) {
+    .keynotes-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 0;
+    }
+
+    .keynotes-card{
+        width: 90%;
+    }
+
+    .keynotes-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 30px;
+    }
+
+    .keynotes-heading{
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 700;
+        color: var(--black-color);
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .keynotes-card:hover{
+        transform: none;
+    }
+    
+}
