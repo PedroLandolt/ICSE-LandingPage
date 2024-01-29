@@ -34,11 +34,11 @@ function Navbar() {
               <li className='navbar-btn'>
                 {
                   button ? (
-                    <Link to='https://www.google.com' className='btn-link'>
+                    <Link to='https://conf.researchr.org/attending/icse-2024/registration' className='btn-link'>
                       <Button buttonStyle='btn--outline' buttonColor='transparent' >REGISTER</Button>
                     </Link>
                   ) : (
-                    <Link to='https://www.google.com' className='btn-link' onClick={closeMobileMenu}>
+                    <Link to='https://conf.researchr.org/attending/icse-2024/registration' className='btn-link' onClick={closeMobileMenu}>
                       <Button buttonStyle='btn--outline' buttonColor='transparent' buttonSize='btn--mobile' >REGISTER</Button>
                     </Link>
                   )
