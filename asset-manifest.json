@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/icse-landingpage/static/css/main.f9a1234d.css",
-    "main.js": "/icse-landingpage/static/js/main.fe01740f.js",
+    "main.js": "/icse-landingpage/static/js/main.9cb91699.js",
     "index.html": "/icse-landingpage/index.html",
     "main.f9a1234d.css.map": "/icse-landingpage/static/css/main.f9a1234d.css.map",
-    "main.fe01740f.js.map": "/icse-landingpage/static/js/main.fe01740f.js.map"
+    "main.9cb91699.js.map": "/icse-landingpage/static/js/main.9cb91699.js.map"
   },
   "entrypoints": [
     "static/css/main.f9a1234d.css",
-    "static/js/main.fe01740f.js"
+    "static/js/main.9cb91699.js"
   ]
 }
